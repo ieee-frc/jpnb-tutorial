@@ -18,8 +18,8 @@ paquetes `pip` que generalmente se instala con Pyhton). Los pasos a seguir se
 pueden encontrar en la web de [Jupyter Notebook](https://jupyter.org/install)
 
 
-Para instalar *Anaconda* se puede descargar el instalador desde su [pagina web]
-(https://www.anaconda.com/products/distribution). Una vez instalado, se puede 
+Para instalar *Anaconda* se puede descargar el instalador desde su 
+[pagina web](https://www.anaconda.com/products/distribution). Una vez instalado, se puede 
 lanzar este programa y desde abrir jupyter notebook. 
 
 
