@@ -1,7 +1,6 @@
 # Tutorial de Jupyter Notebook 
 
-
-![Logo Jupyter](https://github.com/ieee-frc/jpnb-tutorial/blob/master/Slides/img/main-logo.png){:height="100px" width="100px"}
+<img src="https://github.com/ieee-frc/jpnb-tutorial/blob/master/Slides/img/main-logo.png" width="200" height="200" align="center" />
 
 [Slides](#)
 
