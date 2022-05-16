@@ -50,10 +50,20 @@ comnado se instalaran las herramientas restanteces.
 * Instalamos jupyter notebook usando pip: 
 `pip3 install jupyter-notebook`. 
 
+
+## Entornos virtuales 
+
+### Instalacion 
 Para instalar *virtualenv*, la herramienta para crear entornor virtuales: 
 
 * `sudo apt update`
 
 * `sudo apt install virtualenv`
 
- 
+En windows, con el mismo anaconda se pueden crear entornos virtuales. Revisar su 
+pagina web para ver las instrucciones. 
+
+
+### Creacion de Kernels de entornos virtuales 
+
+
