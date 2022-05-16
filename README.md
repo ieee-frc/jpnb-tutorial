@@ -34,6 +34,14 @@ Para instalar Jupyter Notebook simplemente:
 
 * `sudo apt install jupyter-notebook`
 
+Es recomendable instalar otras herramientas de jupyter como `kernelspecs`, para poder 
+adminisitrar kernels. Para ello, cambiar el comando por: 
+
+* `sudo apt install jupyter`
+
+Si ya habian lanzado el comando anterior instalando solo notebook, al lanzar este 
+comnado se instalaran las herramientas restanteces. 
+
  Tambien podemos instalarlo haciendo: 
 
 * Instalamos pip3 y dependencias para Jupyter Notebook: 
@@ -46,6 +54,6 @@ Para instalar *virtualenv*, la herramienta para crear entornor virtuales:
 
 * `sudo apt update`
 
-* `sudo apt install jupyter-notebook`
+* `sudo apt install virtualenv`
 
  
