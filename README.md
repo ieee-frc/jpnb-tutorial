@@ -3,7 +3,7 @@
 <img src="https://github.com/ieee-frc/jpnb-tutorial/blob/master/Slides/img/main-logo.png" width="200" height="200" />
 </p>
 
-[Slides](#)
+[Slides](https://github.com/ieee-frc/jpnb-tutorial/blob/master/Slides/Tutorial%20Jupyter%20Notebook.pdf)
 
 ## Instrucciones instalacion 
 
