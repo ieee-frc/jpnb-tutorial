@@ -40,7 +40,7 @@ adminisitrar kernels. Para ello, cambiar el comando por:
 * `sudo apt install jupyter`
 
 Si ya habian lanzado el comando anterior instalando solo notebook, al lanzar este 
-comnado se instalaran las herramientas restanteces. 
+comnado se instalaran las herramientas restantes. 
 
  Tambien podemos instalarlo haciendo: 
 
@@ -63,7 +63,54 @@ Para instalar *virtualenv*, la herramienta para crear entornor virtuales:
 En windows, con el mismo anaconda se pueden crear entornos virtuales. Revisar su 
 pagina web para ver las instrucciones. 
 
+### Creacion de entornos virtuales 
+
+* `virtualenv <dir>`
+    
+    Por ejemplo, puede ser util tener una carpeta en $HOME con nombre <virtual_env>
+    y tener los diferentes entornos virtuales dentro de ese directorio : 
+
+* `virtualenv ~/virtual_env/python2`
+    
+    Una vez creado el entornor virtual, para activarlo : 
+
+* `source  ~/virtual_env/python2/bin/activate`
+    
+    Y para instalar paquetes dentro de este entorno virtual : 
+
+* `pip install <nombre paquete> `
+    
+    Para desactivar el entorno, solamente : 
+
+* `deactivate`
+
 
 ### Creacion de Kernels de entornos virtuales 
+    
+Instalar ipykernel. Esto se puede hacer con el entorno virtual activado o en con el 
+    entorno virtual desactivado, instalando este paquete en nuestro sistema. Si lo hacemos dentro del entorno
+    tendremos que instalar este paquete dentro de cada entorno que querramos usar como kernel de jpnb. 
+    Y además, tendremos que, luego de instalar desactivar y volverlo a activar el entorno. 
+
+* `pip install ipykernel`
+    
+Crear el kernel con el nombre del entorno virtual. Es recomendable darle el mismo nombre que al directorio donde creamos ese 
+    entorno virtual. En el caso del ejemplo superior, <python2> 
+
+* `ipython kernel install --user --name=<name>`
+    
+
+Abrir jpnb y seleccionar el kernel 
 
 
+Para desinstalar un kernel 
+
+
+* `jupyter kernelspec uninstall <name>`
+
+
+Para listar los kernels 
+
+* `jupyter kernelspec list`
+    
+    
