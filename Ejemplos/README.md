@@ -1,23 +1,22 @@
 # Ejemplos 
 
-* [Ejemplo 1](#) : Tipos de celdas y atajos útiles 
+* [Ejemplo 1](https://github.com/ieee-frc/jpnb-tutorial/blob/master/Ejemplos/Ejemplo1.ipynb) : Tipos de celdas y atajos útiles 
 
-* [Ejemplo Markdown](#) : Sintaxis basica de Markdown y fuente
+* [Ejemplo Markdown](https://github.com/ieee-frc/jpnb-tutorial/blob/master/Ejemplos/Ej_Markdown.ipynb) : Sintaxis basica de Markdown y fuente
 
-* [Ejemplo Kernel Octave](#) : Usando octave en un notebook 
+* [Ejemplo Kernel Octave](https://github.com/ieee-frc/jpnb-tutorial/blob/master/Ejemplos/Octave.ipynb) : Usando octave en un notebook 
 
-* [Ejemplo Kernel propio](#) : Crear un kernel a  partir de un entorno virtual 
  
 
 
 ### Otros Ejemplos
 
 
-* [Machine Learning](https://github.com/matias-dogliani/energybuild/blob/master/Training_Testing_model.ipynb):
+* [Machine Learning](https://github.com/matias-dogliani/energybuild/blob/master/Notebooks/Training_Testing_model.ipynb):
 Comparacion de algoritmos de machine learning para
 predecir el consumo de energía
 
-* [Big Data](https://github.com/matias-dogliani/energybuild/blob/master/PreProcess_EnergyConsumption.ipynb): 
+* [Big Data](https://github.com/matias-dogliani/energybuild/blob/master/Notebooks/PreProcess_EnergyConsumption.ipynb): 
 Analisis y procesamiento de set de datos. 
 
 * [Bot para Telegram](https://github.com/MartinNievas/telegram-message-plotter/blob/main/scrapper.ipynb): 
@@ -33,6 +32,15 @@ Procesamiento de datos adquiridos con sensores simulados en Gazebo
 Correr codigo c++ en Jupyter Notebook
 
 
-### READMEs 
+### Ejemplos de READMEs que  usan markdown. 
 
-Readmes copados para mostrar los markdowns 
+* [README con GIF](https://github.com/matias-dogliani/robotic_repo/blob/master/Tp3/README.md)
+
+
+* [Tablas, Imagenes, GIF y bloques de codigo](https://github.com/matias-dogliani/diseno_digital/blob/master/Tp6/README.md)
+
+
+* [Sales man problem - GIF](https://github.com/diego-vicente/som-tsp/blob/master/README.org): En este caso, el README esta hecho con formato emacs org-mode document, 
+y también es usado y soportado por github. 
+
+
